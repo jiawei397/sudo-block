@@ -17,7 +17,8 @@
 	},
 	"scripts": {
 		"//test": "xo && ava && tsd",
-		"test": "xo && tsd"
+		"test": "xo && tsd",
+		"dev": "node example.js"
 	},
 	"files": [
 		"index.js",
@@ -34,7 +35,7 @@
 		"stop"
 	],
 	"dependencies": {
-		"chalk": "^4.1.1",
+		"chalk": "^5.3.0",
 		"is-docker": "^2.2.1",
 		"is-root": "^3.0.0"
 	},
